@@ -1,0 +1,4 @@
+cd /etc/yum.repos.d mv CentOS-Base.repo CentOS-Base.repo.save
+wget http://centos.ustc.edu.cn/CentOS-Base.repo.5
+mv CentOS-Base.repo.5 CentOS-Base.repo
+yum update
